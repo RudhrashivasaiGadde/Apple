@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.globalnav-link svg {
+  vertical-align: -7px;
+}
+
+
+
+body{
+    position: absolute;
+}
+
+footer{
+    position: relative;
+}
+
+main{
+    position: relative;
+}
+
+header{
+    top: -3%;
+    height: 30%;
+    width: 100%;
+    position: relative;
+    padding-top: 1%;
+}
+.nav-bar{
+    display: flex;
+    padding: 10px;
+    gap: 120px;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; /* example */
+    z-index: 1000;
+    background-color: white;
+    gap: 30px;
+}
+
+
+.link{
+    top: 10%;
+    left: 10%;
+    right: 10%;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+main{   
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top: -22%;
+}
+
+.iPhone{
+    background-image: url('https://www.apple.com/v/home/cm/images/heroes/iphone-family/hero_iphone_family__fuz5j2v5xx6y_largetall_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.butt1{
+    background-color: rgb(78, 78, 240);
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-size: x-large; 
+}
+
+h1{
+    padding-top: 30px;
+}
+
+
+.learn{
+    color: white;
+}
+
+.shop{
+    color: blue;
+}
+
+.butt2{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+}
+
+
+
+.Mac-Neo{
+    background-image: url('https://www.apple.com/v/home/cm/images/heroes/macbook-neo/hero_macbook_neo__gnm3snkti4a6_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    background-color: white; 
+    text-align: center;
+    align-items: center;
+}
+
+
+.iPad{
+    background-image: url('https://www.apple.com/v/home/cm/images/heroes/ipad-pro/hero_ipad_pro__gl982dtu49im_largetall_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    align-items: center;
+}
+
+.iPad-air{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/ipad-air-m4/promo_ipad_air_m4__f9ie3h3pzr6m_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.MAC-PRO{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/macbook-pro/promo_macbook_pro__e3xqrygvp9ea_large_2x.jpg   ');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.boxes1{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+.pods3{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/airpods-pro-3/promo_airpodspro_3__f6xmza7bglei_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.busss{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/apple-business/promo_apple_business__fi88n3dz0emq_large_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.Trade{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_small_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+.Card{
+    background-image: url('https://www.apple.com/v/home/cm/images/promos/apple-card/promo_apple_card__5cm7draujpey_small_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 600px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.shrinking{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    overflow: scroll;
+    scrollbar-width: thin;
+}
+
+
+.list{
+    text-align: center;
+}
+
+.footer{
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 247);
+}
+
+.policy{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.policy p {
+  margin: 0 auto;
+}
+
+
+.links{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    display: flex;
+    gap: 40px;
+}
+
+.e{
+    width: 70%;
+    margin: 0 auto;
+    text-align: justify;
+    gap: 40px;
+}
